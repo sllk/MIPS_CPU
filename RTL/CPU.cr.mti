@@ -1,0 +1,113 @@
+D:/Code/jizu_final/Latch_a.v {1 {vlog -work work -stats=none D:/Code/jizu_final/Latch_a.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module latch_a
+
+Top level modules:
+	latch_a
+
+} {} {}} D:/Code/jizu_final/CPU_tb.v {1 {vlog -work work -stats=none D:/Code/jizu_final/CPU_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CPU_tb
+
+Top level modules:
+	CPU_tb
+
+} {} {}} D:/Code/jizu_final/Latch_b.v {1 {vlog -work work -stats=none D:/Code/jizu_final/Latch_b.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Latch_b
+
+Top level modules:
+	Latch_b
+
+} {} {}} D:/Code/jizu_final/Latch_PC.v {1 {vlog -work work -stats=none D:/Code/jizu_final/Latch_PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Latch_PC
+
+Top level modules:
+	Latch_PC
+
+} {} {}} D:/Code/jizu_final/Mux5bit.v {1 {vlog -work work -stats=none D:/Code/jizu_final/Mux5bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux5bit
+
+Top level modules:
+	Mux5bit
+
+} {} {}} D:/Code/jizu_final/Latch_c.v {1 {vlog -work work -stats=none D:/Code/jizu_final/Latch_c.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module latch_c
+
+Top level modules:
+	latch_c
+
+} {} {}} D:/Code/jizu_final/Latch_d.v {1 {vlog -work work -stats=none D:/Code/jizu_final/Latch_d.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module latch_d
+
+Top level modules:
+	latch_d
+
+} {} {}} D:/Code/jizu_final/CPU.v {1 {vlog -work work -stats=none D:/Code/jizu_final/CPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} D:/Code/jizu_final/CU.v {1 {vlog -work work -stats=none D:/Code/jizu_final/CU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CU
+
+Top level modules:
+	CU
+
+} {} {}} D:/Code/jizu_final/adder.v {1 {vlog -work work -stats=none D:/Code/jizu_final/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} D:/Code/jizu_final/Sign_Extend.v {1 {vlog -work work -stats=none D:/Code/jizu_final/Sign_Extend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} D:/Code/jizu_final/memory_rom.v {1 {vlog -work work -stats=none D:/Code/jizu_final/memory_rom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module memory_rom
+
+Top level modules:
+	memory_rom
+
+} {} {}} D:/Code/jizu_final/memory_reg.v {1 {vlog -work work -stats=none D:/Code/jizu_final/memory_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module memory_reg
+
+Top level modules:
+	memory_reg
+
+} {} {}} D:/Code/jizu_final/memory_ram.v {1 {vlog -work work -stats=none D:/Code/jizu_final/memory_ram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module memory_ram
+
+Top level modules:
+	memory_ram
+
+} {} {}} D:/Code/jizu_final/ALU.v {1 {vlog -work work -stats=none D:/Code/jizu_final/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Code/jizu_final/Mux.v {1 {vlog -work work -stats=none D:/Code/jizu_final/Mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux
+
+Top level modules:
+	Mux
+
+} {} {}}

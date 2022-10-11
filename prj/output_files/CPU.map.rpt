@@ -1,0 +1,378 @@
+Analysis & Synthesis report for CPU
+Fri Oct 07 09:47:47 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Port Connectivity Checks: "adder:adderE"
+ 10. Port Connectivity Checks: "adder:adderF"
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
+ 14. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                      ;
++---------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Fri Oct 07 09:47:47 2022           ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                   ; CPU                                             ;
+; Top-level Entity Name           ; CPU                                             ;
+; Family                          ; Cyclone V                                       ;
+; Logic utilization (in ALMs)     ; N/A                                             ;
+; Total registers                 ; 0                                               ;
+; Total pins                      ; 2                                               ;
+; Total virtual pins              ; 0                                               ;
+; Total block memory bits         ; 0                                               ;
+; Total DSP Blocks                ; 0                                               ;
+; Total HSSI RX PCSs              ; 0                                               ;
+; Total HSSI PMA RX Deserializers ; 0                                               ;
+; Total HSSI TX PCSs              ; 0                                               ;
+; Total HSSI PMA TX Serializers   ; 0                                               ;
+; Total PLLs                      ; 0                                               ;
+; Total DLLs                      ; 0                                               ;
++---------------------------------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CGXFC7C7F23C8     ;                    ;
+; Top-level entity name                                                           ; CPU                ; CPU                ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                   ;
++----------------------------------+-----------------+------------------------+----------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path     ; Library ;
++----------------------------------+-----------------+------------------------+----------------------------------+---------+
+; ../Mux5bit.v                     ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/Mux5bit.v     ;         ;
+; ../Sign_Extend.v                 ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/Sign_Extend.v ;         ;
+; ../Mux.v                         ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/Mux.v         ;         ;
+; ../memory_rom.v                  ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/memory_rom.v  ;         ;
+; ../memory_reg.v                  ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/memory_reg.v  ;         ;
+; ../memory_ram.v                  ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/memory_ram.v  ;         ;
+; ../Latch_PC.v                    ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/Latch_PC.v    ;         ;
+; ../Latch_d.v                     ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/Latch_d.v     ;         ;
+; ../Latch_c.v                     ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/Latch_c.v     ;         ;
+; ../Latch_b.v                     ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/Latch_b.v     ;         ;
+; ../Latch_a.v                     ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/Latch_a.v     ;         ;
+; ../CU.v                          ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/CU.v          ;         ;
+; ../CPU.v                         ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/CPU.v         ;         ;
+; ../ALU.v                         ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/ALU.v         ;         ;
+; ../adder.v                       ; yes             ; User Verilog HDL File  ; D:/Code/jizu_final/adder.v       ;         ;
+; /code/jizu_final/mem_initia.txt  ; yes             ; Auto-Found File        ; /code/jizu_final/mem_initia.txt  ;         ;
+; /code/jizu/e2/mem_initia.txt     ; yes             ; Auto-Found File        ; /code/jizu/e2/mem_initia.txt     ;         ;
+; /code/jizu/e4/mem_initia.txt     ; yes             ; Auto-Found File        ; /code/jizu/e4/mem_initia.txt     ;         ;
++----------------------------------+-----------------+------------------------+----------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimate of Logic utilization (ALMs needed) ; 0     ;
+;                                             ;       ;
+; Combinational ALUT usage for logic          ; 0     ;
+;     -- 7 input functions                    ; 0     ;
+;     -- 6 input functions                    ; 0     ;
+;     -- 5 input functions                    ; 0     ;
+;     -- 4 input functions                    ; 0     ;
+;     -- <=3 input functions                  ; 0     ;
+;                                             ;       ;
+; Dedicated logic registers                   ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 2     ;
+;                                             ;       ;
+; Total DSP Blocks                            ; 0     ;
+;                                             ;       ;
+; Maximum fan-out node                        ; clk   ;
+; Maximum fan-out                             ; 1     ;
+; Total fan-out                               ; 2     ;
+; Average fan-out                             ; 0.50  ;
++---------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |CPU                       ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 2    ; 0            ; |CPU                ; CPU         ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "adder:adderE"    ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; in1[1..0] ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++------------------------------------------+
+; Port Connectivity Checks: "adder:adderF" ;
++------+-------+----------+----------------+
+; Port ; Type  ; Severity ; Details        ;
++------+-------+----------+----------------+
+; in2  ; Input ; Info     ; Stuck at VCC   ;
++------+-------+----------+----------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-------------------+---------------------------------+
+; Type              ; Count                           ;
++-------------------+---------------------------------+
+; boundary_port     ; 2                               ;
+;                   ;                                 ;
+; Max LUT depth     ; 0.00                            ;
+; Average LUT depth ; 0.00                            ;
++-------------------+---------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Processing started: Fri Oct 07 09:47:34 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/mux5bit.v
+    Info (12023): Found entity 1: Mux5bit File: D:/Code/jizu_final/Mux5bit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/sign_extend.v
+    Info (12023): Found entity 1: Sign_Extend File: D:/Code/jizu_final/Sign_Extend.v Line: 1
+Warning (12090): Entity "Mux" obtained from "../Mux.v" instead of from Quartus Prime megafunction library File: D:/Code/jizu_final/Mux.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/mux.v
+    Info (12023): Found entity 1: Mux File: D:/Code/jizu_final/Mux.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/memory_rom.v
+    Info (12023): Found entity 1: memory_rom File: D:/Code/jizu_final/memory_rom.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/memory_reg.v
+    Info (12023): Found entity 1: memory_reg File: D:/Code/jizu_final/memory_reg.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/memory_ram.v
+    Info (12023): Found entity 1: memory_ram File: D:/Code/jizu_final/memory_ram.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/latch_pc.v
+    Info (12023): Found entity 1: Latch_PC File: D:/Code/jizu_final/Latch_PC.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/latch_d.v
+    Info (12023): Found entity 1: latch_d File: D:/Code/jizu_final/Latch_d.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/latch_c.v
+    Info (12023): Found entity 1: latch_c File: D:/Code/jizu_final/Latch_c.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/latch_b.v
+    Info (12023): Found entity 1: Latch_b File: D:/Code/jizu_final/Latch_b.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/latch_a.v
+    Info (12023): Found entity 1: latch_a File: D:/Code/jizu_final/Latch_a.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/cu.v
+    Info (12023): Found entity 1: CU File: D:/Code/jizu_final/CU.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/cpu.v
+    Info (12023): Found entity 1: CPU File: D:/Code/jizu_final/CPU.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/alu.v
+    Info (12023): Found entity 1: ALU File: D:/Code/jizu_final/ALU.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /code/jizu_final/adder.v
+    Info (12023): Found entity 1: adder File: D:/Code/jizu_final/adder.v Line: 1
+Info (12127): Elaborating entity "CPU" for the top level hierarchy
+Info (12128): Elaborating entity "Mux" for hierarchy "Mux:MuxF" File: D:/Code/jizu_final/CPU.v Line: 75
+Info (12128): Elaborating entity "Latch_PC" for hierarchy "Latch_PC:Latch_PC_inst" File: D:/Code/jizu_final/CPU.v Line: 82
+Info (12128): Elaborating entity "adder" for hierarchy "adder:adderF" File: D:/Code/jizu_final/CPU.v Line: 88
+Info (12128): Elaborating entity "memory_rom" for hierarchy "memory_rom:memory_rom_inst" File: D:/Code/jizu_final/CPU.v Line: 94
+Warning (10850): Verilog HDL warning at memory_rom.v(13): number of words (9) in memory file does not match the number of elements in the address range [0:7] File: D:/Code/jizu_final/memory_rom.v Line: 13
+Warning (10030): Net "mem.data_a" at memory_rom.v(8) has no driver or initial value, using a default initial value '0' File: D:/Code/jizu_final/memory_rom.v Line: 8
+Warning (10030): Net "mem.waddr_a" at memory_rom.v(8) has no driver or initial value, using a default initial value '0' File: D:/Code/jizu_final/memory_rom.v Line: 8
+Warning (10030): Net "mem.we_a" at memory_rom.v(8) has no driver or initial value, using a default initial value '0' File: D:/Code/jizu_final/memory_rom.v Line: 8
+Info (12128): Elaborating entity "latch_a" for hierarchy "latch_a:latch_a_inst" File: D:/Code/jizu_final/CPU.v Line: 102
+Info (12128): Elaborating entity "CU" for hierarchy "CU:CU_inst" File: D:/Code/jizu_final/CPU.v Line: 114
+Warning (10230): Verilog HDL assignment warning at CU.v(29): truncated value with size 32 to match size of target (3) File: D:/Code/jizu_final/CU.v Line: 29
+Warning (10230): Verilog HDL assignment warning at CU.v(32): truncated value with size 32 to match size of target (3) File: D:/Code/jizu_final/CU.v Line: 32
+Warning (10270): Verilog HDL Case Statement warning at CU.v(27): incomplete case statement has no default case item File: D:/Code/jizu_final/CU.v Line: 27
+Warning (10240): Verilog HDL Always Construct warning at CU.v(18): inferring latch(es) for variable "ALUControl", which holds its previous value in one or more paths through the always construct File: D:/Code/jizu_final/CU.v Line: 18
+Info (10041): Inferred latch for "ALUControl[0]" at CU.v(18) File: D:/Code/jizu_final/CU.v Line: 18
+Info (10041): Inferred latch for "ALUControl[1]" at CU.v(18) File: D:/Code/jizu_final/CU.v Line: 18
+Info (10041): Inferred latch for "ALUControl[2]" at CU.v(18) File: D:/Code/jizu_final/CU.v Line: 18
+Info (12128): Elaborating entity "memory_reg" for hierarchy "memory_reg:memory_reg_inst" File: D:/Code/jizu_final/CPU.v Line: 125
+Warning (10850): Verilog HDL warning at memory_reg.v(16): number of words (4) in memory file does not match the number of elements in the address range [0:7] File: D:/Code/jizu_final/memory_reg.v Line: 16
+Info (12128): Elaborating entity "Sign_Extend" for hierarchy "Sign_Extend:Sign_Extend_inst" File: D:/Code/jizu_final/CPU.v Line: 130
+Info (12128): Elaborating entity "Latch_b" for hierarchy "Latch_b:Latch_b_inst" File: D:/Code/jizu_final/CPU.v Line: 162
+Info (12128): Elaborating entity "Mux5bit" for hierarchy "Mux5bit:MuxE2" File: D:/Code/jizu_final/CPU.v Line: 176
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:ALU_inst" File: D:/Code/jizu_final/CPU.v Line: 184
+Info (12128): Elaborating entity "latch_c" for hierarchy "latch_c:latch_c_inst" File: D:/Code/jizu_final/CPU.v Line: 214
+Info (12128): Elaborating entity "memory_ram" for hierarchy "memory_ram:memory_ram_inst" File: D:/Code/jizu_final/CPU.v Line: 222
+Warning (10850): Verilog HDL warning at memory_ram.v(13): number of words (4) in memory file does not match the number of elements in the address range [0:7] File: D:/Code/jizu_final/memory_ram.v Line: 13
+Info (12128): Elaborating entity "latch_d" for hierarchy "latch_d:latch_d_inst" File: D:/Code/jizu_final/CPU.v Line: 237
+Info (144001): Generated suppressed messages file D:/Code/jizu_final/prj/output_files/CPU.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "clk" File: D:/Code/jizu_final/CPU.v Line: 2
+    Warning (15610): No output dependent on input pin "Rst" File: D:/Code/jizu_final/CPU.v Line: 4
+Info (21057): Implemented 2 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 0 output pins
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 15 warnings
+    Info: Peak virtual memory: 4800 megabytes
+    Info: Processing ended: Fri Oct 07 09:47:47 2022
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:27
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in D:/Code/jizu_final/prj/output_files/CPU.map.smsg.
+
+

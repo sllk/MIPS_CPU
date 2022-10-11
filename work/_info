@@ -1,0 +1,462 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Code/jizu3
+vadder
+Z0 !s110 1665375211
+!i10b 1
+!s100 n5`j@?[c9L_5GkOE_XaPE0
+I<U=2G1]Kg_BBBZg2:M5>K3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Code/jizu_final
+w1665059907
+8D:/Code/jizu_final/adder.v
+FD:/Code/jizu_final/adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1665375211.000000
+!s107 D:/Code/jizu_final/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vALU
+Z7 !s110 1665375210
+!i10b 1
+!s100 Ka?Cl=1X`[^VD?5EDFPHH2
+IMHcYO4Q:W@^I?=b6H40h63
+R1
+R2
+w1665286283
+8D:/Code/jizu_final/ALU.v
+FD:/Code/jizu_final/ALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1665375209.000000
+!s107 D:/Code/jizu_final/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/ALU.v|
+!i113 1
+R5
+R6
+n@a@l@u
+vALU_tb
+Z8 !s110 1665105174
+!i10b 1
+!s100 TE=BYF7_E8Ri:2KIfK?kZ2
+I>Bg;HlVCOUSmZZefzoO473
+R1
+R2
+w1663839656
+8D:/Code/jizu_final/ALU_tb.v
+FD:/Code/jizu_final/ALU_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z9 !s108 1665105174.000000
+!s107 D:/Code/jizu_final/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/ALU_tb.v|
+!i113 1
+R5
+R6
+n@a@l@u_tb
+vCPU
+R7
+!i10b 1
+!s100 ]_>FXUJlN?c<>oF<iGXO<2
+I<@VgQdJm;N9zjWEbnX`1a2
+R1
+R2
+w1665374944
+8D:/Code/jizu_final/CPU.v
+FD:/Code/jizu_final/CPU.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1665375210.000000
+!s107 D:/Code/jizu_final/CPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/CPU.v|
+!i113 1
+R5
+R6
+n@c@p@u
+vCPU_tb
+Z11 !s110 1665375212
+!i10b 1
+!s100 nc[]@BXTSPIWNFi@b`6NR0
+I2DP@9onaTC:dg[00fZl8c0
+R1
+R2
+w1665222602
+8D:/Code/jizu_final/CPU_tb.v
+FD:/Code/jizu_final/CPU_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Code/jizu_final/CPU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/CPU_tb.v|
+!i113 1
+R5
+R6
+n@c@p@u_tb
+vCU
+R7
+!i10b 1
+!s100 VmJ@PZIMR1SF4_jDeJ<?13
+I7:XAlFQjNTP<P<]?=FPi31
+R1
+R2
+w1665301516
+8D:/Code/jizu_final/CU.v
+FD:/Code/jizu_final/CU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Code/jizu_final/CU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/CU.v|
+!i113 1
+R5
+R6
+n@c@u
+vCU_tb
+R8
+!i10b 1
+!s100 >KFkn^FPhl:zJiS;5M4Y>2
+IGm:N?=FO4J<D>P73ZdHjH1
+R1
+R2
+w1665045461
+8D:/Code/jizu_final/CU_tb.v
+FD:/Code/jizu_final/CU_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Code/jizu_final/CU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/CU_tb.v|
+!i113 1
+R5
+R6
+n@c@u_tb
+vlatch_a
+R7
+!i10b 1
+!s100 ]YD=ajK1ZJKmLTCNd]TQa0
+IIg@FNd<Se:CiGJJA46Kml0
+R1
+R2
+w1665105969
+8D:/Code/jizu_final/Latch_a.v
+FD:/Code/jizu_final/Latch_a.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Code/jizu_final/Latch_a.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/Latch_a.v|
+!i113 1
+R5
+R6
+vLatch_b
+R0
+!i10b 1
+!s100 ]IN<4NhKJ?ScD><3`z44U3
+Ilz]>47Mm:`bhZ4BjlboL]0
+R1
+R2
+w1665106556
+8D:/Code/jizu_final/Latch_b.v
+FD:/Code/jizu_final/Latch_b.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Code/jizu_final/Latch_b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/Latch_b.v|
+!i113 1
+R5
+R6
+n@latch_b
+vlatch_c
+R0
+!i10b 1
+!s100 d2SaO5S5Ta5RDUR662<JC2
+IY:g^eM?mP2GzTBfP1VcUj1
+R1
+R2
+w1665061812
+8D:/Code/jizu_final/Latch_c.v
+FD:/Code/jizu_final/Latch_c.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Code/jizu_final/Latch_c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/Latch_c.v|
+!i113 1
+R5
+R6
+vlatch_d
+R0
+!i10b 1
+!s100 F02>;@7FGj^FO1WQT>]g@1
+IA=@U^?C0iNA2gJ62Rffm_2
+R1
+R2
+w1665062542
+8D:/Code/jizu_final/Latch_d.v
+FD:/Code/jizu_final/Latch_d.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Code/jizu_final/Latch_d.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/Latch_d.v|
+!i113 1
+R5
+R6
+vLatch_PC
+R0
+!i10b 1
+!s100 7h`Ve619Y6?=Q=V@=lMI72
+IYQPW=NE2f^@XmXYGBDRYI1
+R1
+R2
+w1665132408
+8D:/Code/jizu_final/Latch_PC.v
+FD:/Code/jizu_final/Latch_PC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Code/jizu_final/Latch_PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/Latch_PC.v|
+!i113 1
+R5
+R6
+n@latch_@p@c
+vmemory_ram
+R7
+!i10b 1
+!s100 N]MXFho7Gk]k;5`9fVbA93
+IBo9cPmziBO1o^eO_Gmka<0
+R1
+R2
+w1665153663
+8D:/Code/jizu_final/memory_ram.v
+FD:/Code/jizu_final/memory_ram.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Code/jizu_final/memory_ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/memory_ram.v|
+!i113 1
+R5
+R6
+vmemory_ram_tb
+Z12 !s110 1665105175
+!i10b 1
+!s100 6TZB1`[206l@4:?nHd:NQ0
+IfT9ZG30iQij6ObzOh8dl30
+R1
+R2
+w1665062123
+8D:/Code/jizu_final/memory_ram_tb.v
+FD:/Code/jizu_final/memory_ram_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z13 !s108 1665105175.000000
+!s107 D:/Code/jizu_final/memory_ram_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/memory_ram_tb.v|
+!i113 1
+R5
+R6
+vmemory_reg
+R7
+!i10b 1
+!s100 Y;j:ibck5HF?jVhTO4E@f2
+Imc<<zRfg?eI^Ic1z9`4Uz0
+R1
+R2
+w1665153645
+8D:/Code/jizu_final/memory_reg.v
+FD:/Code/jizu_final/memory_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Code/jizu_final/memory_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/memory_reg.v|
+!i113 1
+R5
+R6
+vmemory_reg_tb
+R12
+!i10b 1
+!s100 6D4OIaHEW7oR`RF4m8b]_1
+I:7YNJPKWM2V1U^3nHEE241
+R1
+R2
+w1665046026
+8D:/Code/jizu_final/memory_reg_tb.v
+FD:/Code/jizu_final/memory_reg_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Code/jizu_final/memory_reg_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/memory_reg_tb.v|
+!i113 1
+R5
+R6
+vmemory_rom
+R7
+!i10b 1
+!s100 ?7b4YcE?meT]X?jm=ghO22
+IZJM:o@?akjg@SGE>Q>l>c0
+R1
+R2
+w1665300934
+8D:/Code/jizu_final/memory_rom.v
+FD:/Code/jizu_final/memory_rom.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Code/jizu_final/memory_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/memory_rom.v|
+!i113 1
+R5
+R6
+vmemory_rom_tb
+R12
+!i10b 1
+!s100 dWO=iSOa9Y>F4S[niXiW>3
+IHE:oHnPnW]hPindgEd_GI3
+R1
+R2
+w1665045864
+8D:/Code/jizu_final/memory_rom_tb.v
+FD:/Code/jizu_final/memory_rom_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Code/jizu_final/memory_rom_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/memory_rom_tb.v|
+!i113 1
+R5
+R6
+vMux
+R0
+!i10b 1
+!s100 ;Voe]oYz7>Bla]<8B<O1h2
+I`c0SVMO6[65<6^9Zmoz@T0
+R1
+R2
+w1665131098
+8D:/Code/jizu_final/Mux.v
+FD:/Code/jizu_final/Mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Code/jizu_final/Mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/Mux.v|
+!i113 1
+R5
+R6
+n@mux
+vMux5bit
+R11
+!i10b 1
+!s100 6]IcVkj=OXc==jiV9[29h3
+I7JRO@Qe6Lf8looo7FScS70
+R1
+R2
+w1665106766
+8D:/Code/jizu_final/Mux5bit.v
+FD:/Code/jizu_final/Mux5bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1665375212.000000
+!s107 D:/Code/jizu_final/Mux5bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/Mux5bit.v|
+!i113 1
+R5
+R6
+n@mux5bit
+vSign_Extend
+R0
+!i10b 1
+!s100 fTMVUeFoL52SEPdebmYHN1
+I]J=bUzLY`9`bT3>`3ZKNQ3
+R1
+R2
+w1665057964
+8D:/Code/jizu_final/Sign_Extend.v
+FD:/Code/jizu_final/Sign_Extend.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Code/jizu_final/Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Code/jizu_final/Sign_Extend.v|
+!i113 1
+R5
+R6
+n@sign_@extend
